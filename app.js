@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 // Define your proxy target
-const proxyTarget = 'http://192.168.101.1:8081';
+const proxyTarget = 'http://192.168.10.1:80';
 
 // Create a proxy middleware with CORS
 const proxyOptions = {
